@@ -549,7 +549,7 @@ export default function MusicianPortfolio() {
                     <div className="flex items-center space-x-3">
                       <Users className="w-5 h-5 text-purple-400" />
                       <span className="text-gray-300">
-                        Management: Sarah Johnson
+                        Management: Adedeji Adeleke
                       </span>
                     </div>
                   </div>
@@ -598,10 +598,10 @@ export default function MusicianPortfolio() {
             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="text-center md:text-left">
                 <h3 className="text-white font-bold text-xl mb-2">
-                  ALEX RIVERS
+                  Adedeji Adeleke
                 </h3>
                 <p className="text-gray-400">
-                  © 2025 Alex Rivers. All rights reserved.
+                  © 2025 Adedeji Adeleke. All rights reserved.
                 </p>
                 <p className="text-gray-500 text-sm mt-1">
                   Powered by Metavatech
