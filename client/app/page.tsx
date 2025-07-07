@@ -228,7 +228,7 @@ export default function MusicianPortfolio() {
                         height={300}
                         className="rounded-lg w-full aspect-square object-cover"
                       />
-                      <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
+                      <div className="absolute inset-0 bg-black/50 opacity-0 opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <button className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-purple-600 hover:bg-purple-700 text-white transition-colors">
                           <Play className="w-6 h-6" />
                         </button>
