@@ -31,7 +31,8 @@ export default function MusicianPortfolio() {
       <div
         className="fixed inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+          backgroundImage:
+            "url('https://res.cloudinary.com/dkfmaqtpy/image/upload/v1751909610/Davido-7_e4rqd4.jpg')",
           filter: "blur(8px) brightness(0.3)",
         }}
       />
@@ -43,12 +44,15 @@ export default function MusicianPortfolio() {
           <div className="backdrop-blur-md bg-black/20 rounded-3xl p-8 md:p-12 max-w-4xl mx-auto text-center border border-white/10">
             <div className="space-y-6">
               <div className="space-y-4">
-                <h1 className="text-4xl md:text-7xl font-bold text-white tracking-tight">ALEX RIVERS</h1>
+                <h1 className="text-4xl md:text-7xl font-bold text-white tracking-tight">
+                  Adedeji Adeleke
+                </h1>
                 <p className="text-xl md:text-2xl text-gray-300 font-light">
                   Voice of the Streets • Sound of the Future
                 </p>
                 <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-                  Singer. Songwriter. Storyteller. Available for shows, collabs, and record deals.
+                  Singer. Songwriter. Storyteller. Available for shows, collabs,
+                  and record deals.
                 </p>
               </div>
 
@@ -64,16 +68,28 @@ export default function MusicianPortfolio() {
               </div>
 
               <div className="flex justify-center space-x-6 pt-4">
-                <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
                   <Instagram className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
                   <Twitter className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
                   <Youtube className="w-6 h-6" />
                 </Link>
-                <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
                   <Music className="w-6 h-6" />
                 </Link>
               </div>
@@ -88,20 +104,29 @@ export default function MusicianPortfolio() {
               <div className="p-8 md:p-12">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                   <div className="space-y-6">
-                    <h2 className="text-3xl md:text-4xl font-bold text-white">About Me</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white">
+                      About Me
+                    </h2>
                     <p className="text-gray-300 text-lg leading-relaxed">
-                      Born and raised in the heart of Lagos, I've been crafting melodies that speak to the soul since I
-                      was 12. My sound blends Afrobeats with contemporary R&B, creating something uniquely mine. Music
-                      isn't just what I do—it's who I am.
+                      Born and raised in the heart of Lagos, I've been crafting
+                      melodies that speak to the soul since I was 12. My sound
+                      blends Afrobeats with contemporary R&B, creating something
+                      uniquely mine. Music isn't just what I do—it's who I am.
                     </p>
 
                     <div className="space-y-4">
                       <div>
-                        <h3 className="text-xl font-semibold text-white mb-2">Origin Story</h3>
-                        <p className="text-gray-400">Lagos, Nigeria - Where dreams meet reality</p>
+                        <h3 className="text-xl font-semibold text-white mb-2">
+                          Origin Story
+                        </h3>
+                        <p className="text-gray-400">
+                          Lagos, Nigeria - Where dreams meet reality
+                        </p>
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold text-white mb-2">Genres & Style</h3>
+                        <h3 className="text-xl font-semibold text-white mb-2">
+                          Genres & Style
+                        </h3>
                         <div className="flex flex-wrap gap-2">
                           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-600/20 text-purple-300 border border-purple-500/30">
                             Afrobeats
@@ -118,9 +143,12 @@ export default function MusicianPortfolio() {
                         </div>
                       </div>
                       <div>
-                        <h3 className="text-xl font-semibold text-white mb-2">Why Music?</h3>
+                        <h3 className="text-xl font-semibold text-white mb-2">
+                          Why Music?
+                        </h3>
                         <p className="text-gray-400">
-                          To heal hearts, tell untold stories, and bridge cultures through sound.
+                          To heal hearts, tell untold stories, and bridge
+                          cultures through sound.
                         </p>
                       </div>
                     </div>
@@ -128,7 +156,7 @@ export default function MusicianPortfolio() {
 
                   <div className="relative">
                     <Image
-                      src="/placeholder.svg?height=500&width=400"
+                      src="https://res.cloudinary.com/dkfmaqtpy/image/upload/v1751910196/Davido-7-removebg-preview_tiilyd.png"
                       alt="Alex Rivers"
                       width={400}
                       height={500}
@@ -145,18 +173,47 @@ export default function MusicianPortfolio() {
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Music Portfolio</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Music Portfolio
+              </h2>
               <p className="text-gray-400 text-lg">My journey in sound</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { title: "Midnight Dreams", date: "2024", cover: "/placeholder.svg?height=300&width=300" },
-                { title: "City Lights", date: "2024", cover: "/placeholder.svg?height=300&width=300" },
-                { title: "Heartbreak Anthem", date: "2023", cover: "/placeholder.svg?height=300&width=300" },
-                { title: "Summer Vibes", date: "2023", cover: "/placeholder.svg?height=300&width=300" },
-                { title: "Lost in Lagos", date: "2023", cover: "/placeholder.svg?height=300&width=300" },
-                { title: "Rising Up", date: "2022", cover: "/placeholder.svg?height=300&width=300" },
+                {
+                  title: "Midnight Dreams",
+                  date: "2024",
+                  cover:
+                    "https://res.cloudinary.com/dkfmaqtpy/image/upload/v1751910196/Davido-7-removebg-preview_tiilyd.png",
+                },
+                {
+                  title: "City Lights",
+                  date: "2024",
+                  cover:
+                    "https://res.cloudinary.com/dkfmaqtpy/image/upload/v1751910196/Davido-7-removebg-preview_tiilyd.png",
+                },
+                {
+                  title: "Heartbreak Anthem",
+                  date: "2023",
+                  cover:
+                    "https://res.cloudinary.com/dkfmaqtpy/image/upload/v1751910196/Davido-7-removebg-preview_tiilyd.png",
+                },
+                {
+                  title: "Summer Vibes",
+                  date: "2023",
+                  cover: "/placeholder.svg?height=300&width=300",
+                },
+                {
+                  title: "Lost in Lagos",
+                  date: "2023",
+                  cover: "/placeholder.svg?height=300&width=300",
+                },
+                {
+                  title: "Rising Up",
+                  date: "2022",
+                  cover: "/placeholder.svg?height=300&width=300",
+                },
               ].map((track, index) => (
                 <div
                   key={index}
@@ -177,7 +234,9 @@ export default function MusicianPortfolio() {
                         </button>
                       </div>
                     </div>
-                    <h3 className="text-white font-semibold text-lg mb-1">{track.title}</h3>
+                    <h3 className="text-white font-semibold text-lg mb-1">
+                      {track.title}
+                    </h3>
                     <p className="text-gray-400 text-sm mb-3">{track.date}</p>
                     <button className="w-full inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white backdrop-blur-md bg-white/10 border border-white/20 hover:bg-white/20 rounded-lg transition-colors">
                       <Headphones className="w-4 h-4 mr-2" />
@@ -194,8 +253,12 @@ export default function MusicianPortfolio() {
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">My Sound in Motion</h2>
-              <p className="text-gray-400 text-lg">Real talent, real emotion — see it for yourself</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                My Sound in Motion
+              </h2>
+              <p className="text-gray-400 text-lg">
+                Real talent, real emotion — see it for yourself
+              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
@@ -204,8 +267,12 @@ export default function MusicianPortfolio() {
                   <div className="aspect-video bg-gray-800 rounded-lg mb-4 flex items-center justify-center cursor-pointer hover:bg-gray-700 transition-colors">
                     <Play className="w-12 h-12 text-white" />
                   </div>
-                  <h3 className="text-white font-semibold text-lg mb-2">Midnight Dreams - Official Video</h3>
-                  <p className="text-gray-400 text-sm">2.1M views • 3 months ago</p>
+                  <h3 className="text-white font-semibold text-lg mb-2">
+                    Midnight Dreams - Official Video
+                  </h3>
+                  <p className="text-gray-400 text-sm">
+                    2.1M views • 3 months ago
+                  </p>
                 </div>
               </div>
 
@@ -214,8 +281,12 @@ export default function MusicianPortfolio() {
                   <div className="aspect-video bg-gray-800 rounded-lg mb-4 flex items-center justify-center cursor-pointer hover:bg-gray-700 transition-colors">
                     <Play className="w-12 h-12 text-white" />
                   </div>
-                  <h3 className="text-white font-semibold text-lg mb-2">Live at The Shrine - Lagos</h3>
-                  <p className="text-gray-400 text-sm">850K views • 1 month ago</p>
+                  <h3 className="text-white font-semibold text-lg mb-2">
+                    Live at The Shrine - Lagos
+                  </h3>
+                  <p className="text-gray-400 text-sm">
+                    850K views • 1 month ago
+                  </p>
                 </div>
               </div>
             </div>
@@ -226,7 +297,9 @@ export default function MusicianPortfolio() {
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Press & Recognition</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Press & Recognition
+              </h2>
             </div>
 
             <div className="grid md:grid-cols-3 gap-6">
@@ -234,16 +307,21 @@ export default function MusicianPortfolio() {
                 <div className="p-6 text-center">
                   <Quote className="w-8 h-8 text-purple-400 mx-auto mb-4" />
                   <p className="text-gray-300 mb-4">
-                    "A voice that commands attention and a presence that fills any room."
+                    "A voice that commands attention and a presence that fills
+                    any room."
                   </p>
-                  <p className="text-purple-400 font-semibold">- Pulse Nigeria</p>
+                  <p className="text-purple-400 font-semibold">
+                    - Pulse Nigeria
+                  </p>
                 </div>
               </div>
 
               <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl">
                 <div className="p-6 text-center">
                   <Award className="w-8 h-8 text-blue-400 mx-auto mb-4" />
-                  <p className="text-gray-300 mb-4">"Top 10 Rising Stars to Watch"</p>
+                  <p className="text-gray-300 mb-4">
+                    "Top 10 Rising Stars to Watch"
+                  </p>
                   <p className="text-blue-400 font-semibold">- NotJustOk</p>
                 </div>
               </div>
@@ -251,7 +329,9 @@ export default function MusicianPortfolio() {
               <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl">
                 <div className="p-6 text-center">
                   <Star className="w-8 h-8 text-yellow-400 mx-auto mb-4" />
-                  <p className="text-gray-300 mb-4">"The future of Afrobeats is in safe hands."</p>
+                  <p className="text-gray-300 mb-4">
+                    "The future of Afrobeats is in safe hands."
+                  </p>
                   <p className="text-yellow-400 font-semibold">- The Beat FM</p>
                 </div>
               </div>
@@ -263,12 +343,17 @@ export default function MusicianPortfolio() {
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Gallery</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Gallery
+              </h2>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {Array.from({ length: 8 }).map((_, index) => (
-                <div key={index} className="aspect-square relative group cursor-pointer">
+                <div
+                  key={index}
+                  className="aspect-square relative group cursor-pointer"
+                >
                   <Image
                     src={`/placeholder.svg?height=300&width=300`}
                     alt={`Gallery image ${index + 1}`}
@@ -287,16 +372,33 @@ export default function MusicianPortfolio() {
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Upcoming Shows</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Upcoming Shows
+              </h2>
             </div>
 
             <div className="space-y-4">
               {[
-                { date: "Mar 15, 2025", venue: "The Shrine", location: "Lagos, Nigeria" },
-                { date: "Mar 22, 2025", venue: "Terra Kulture", location: "Lagos, Nigeria" },
-                { date: "Apr 5, 2025", venue: "Freedom Park", location: "Lagos, Nigeria" },
+                {
+                  date: "Mar 15, 2025",
+                  venue: "The Shrine",
+                  location: "Lagos, Nigeria",
+                },
+                {
+                  date: "Mar 22, 2025",
+                  venue: "Terra Kulture",
+                  location: "Lagos, Nigeria",
+                },
+                {
+                  date: "Apr 5, 2025",
+                  venue: "Freedom Park",
+                  location: "Lagos, Nigeria",
+                },
               ].map((show, index) => (
-                <div key={index} className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl">
+                <div
+                  key={index}
+                  className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl"
+                >
                   <div className="p-6">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                       <div className="flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-6">
@@ -329,10 +431,13 @@ export default function MusicianPortfolio() {
           <div className="max-w-4xl mx-auto">
             <div className="backdrop-blur-md bg-gradient-to-r from-purple-900/30 to-blue-900/30 border border-white/10 rounded-2xl">
               <div className="p-8 md:p-12 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Looking for talent?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Looking for talent?
+                </h2>
                 <p className="text-gray-300 text-lg mb-6 max-w-2xl mx-auto">
-                  I'm unsigned and hungry. Explore my story, my numbers, and my sound. Ready to take the next step with
-                  the right label partnership.
+                  I'm unsigned and hungry. Explore my story, my numbers, and my
+                  sound. Ready to take the next step with the right label
+                  partnership.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button className="inline-flex items-center justify-center px-8 py-3 text-lg font-medium text-white bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full transition-all duration-200">
@@ -353,14 +458,20 @@ export default function MusicianPortfolio() {
         <section className="py-20 px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Let's Work Together</h2>
-              <p className="text-gray-400 text-lg">Ready to book or collaborate? Get in touch.</p>
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                Let's Work Together
+              </h2>
+              <p className="text-gray-400 text-lg">
+                Ready to book or collaborate? Get in touch.
+              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl">
                 <div className="p-6">
-                  <h3 className="text-white font-semibold text-xl mb-6">Send a Message</h3>
+                  <h3 className="text-white font-semibold text-xl mb-6">
+                    Send a Message
+                  </h3>
                   <form className="space-y-4">
                     <input
                       type="text"
@@ -389,19 +500,27 @@ export default function MusicianPortfolio() {
 
               <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl">
                 <div className="p-6">
-                  <h3 className="text-white font-semibold text-xl mb-6">Contact Info</h3>
+                  <h3 className="text-white font-semibold text-xl mb-6">
+                    Contact Info
+                  </h3>
                   <div className="space-y-4">
                     <div className="flex items-center space-x-3">
                       <Mail className="w-5 h-5 text-purple-400" />
-                      <span className="text-gray-300">booking@alexrivers.com</span>
+                      <span className="text-gray-300">
+                        booking@alexrivers.com
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Phone className="w-5 h-5 text-purple-400" />
-                      <span className="text-gray-300">+234 (0) 123 456 7890</span>
+                      <span className="text-gray-300">
+                        +234 (0) 123 456 7890
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <Users className="w-5 h-5 text-purple-400" />
-                      <span className="text-gray-300">Management: Sarah Johnson</span>
+                      <span className="text-gray-300">
+                        Management: Sarah Johnson
+                      </span>
                     </div>
                   </div>
 
@@ -421,9 +540,12 @@ export default function MusicianPortfolio() {
           <div className="max-w-4xl mx-auto">
             <div className="backdrop-blur-md bg-black/20 border border-white/10 rounded-2xl">
               <div className="p-8 md:p-12 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Be the first to hear new drops</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Be the first to hear new drops
+                </h2>
                 <p className="text-gray-400 text-lg mb-6">
-                  Join the inner circle and never miss a release, show, or exclusive content.
+                  Join the inner circle and never miss a release, show, or
+                  exclusive content.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
                   <input
@@ -445,38 +567,68 @@ export default function MusicianPortfolio() {
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="text-center md:text-left">
-                <h3 className="text-white font-bold text-xl mb-2">ALEX RIVERS</h3>
-                <p className="text-gray-400">© 2025 Alex Rivers. All rights reserved.</p>
-                <p className="text-gray-500 text-sm mt-1">Powered by Metavatech</p>
+                <h3 className="text-white font-bold text-xl mb-2">
+                  ALEX RIVERS
+                </h3>
+                <p className="text-gray-400">
+                  © 2025 Alex Rivers. All rights reserved.
+                </p>
+                <p className="text-gray-500 text-sm mt-1">
+                  Powered by Metavatech
+                </p>
               </div>
 
               <div className="flex flex-col sm:flex-row items-center gap-6">
                 <nav className="flex space-x-6">
-                  <Link href="#about" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#about"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     About
                   </Link>
-                  <Link href="#music" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#music"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     Music
                   </Link>
-                  <Link href="#videos" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#videos"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     Videos
                   </Link>
-                  <Link href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#contact"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     Contact
                   </Link>
                 </nav>
 
                 <div className="flex space-x-4">
-                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     <Instagram className="w-5 h-5" />
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     <Twitter className="w-5 h-5" />
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     <Youtube className="w-5 h-5" />
                   </Link>
-                  <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link
+                    href="#"
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
                     <Music className="w-5 h-5" />
                   </Link>
                 </div>
@@ -486,5 +638,5 @@ export default function MusicianPortfolio() {
         </footer>
       </div>
     </div>
-  )
+  );
 }
