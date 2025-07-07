@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Image from "next/image"
-import Link from "next/link"
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 import {
   Play,
   Download,
@@ -20,10 +20,16 @@ import {
   Headphones,
   Users,
   Award,
-} from "lucide-react"
+} from "lucide-react";
+import {
+  SiSpotify,
+  SiYoutubemusic,
+  SiAudiomack,
+  SiApplemusic,
+} from "react-icons/si";
 
 export default function MusicianPortfolio() {
-  const [selectedTrack, setSelectedTrack] = useState(null)
+  const [selectedTrack, setSelectedTrack] = useState(null);
 
   return (
     <div className="min-h-screen relative">
@@ -91,6 +97,30 @@ export default function MusicianPortfolio() {
                   className="text-white/70 hover:text-white transition-colors"
                 >
                   <Music className="w-6 h-6" />
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
+                  <SiSpotify size={24} color="currentColor" />
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
+                  <SiYoutubemusic size={24} color="currentColor" />
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
+                  <SiAudiomack size={24} color="currentColor" />
+                </Link>
+                <Link
+                  href="#"
+                  className="text-white/70 hover:text-white transition-colors"
+                >
+                  <SiApplemusic size={24} color="currentColor" />
                 </Link>
               </div>
             </div>
